@@ -18,9 +18,53 @@
     </div>
     
     <div class="right-side">
+
         <header class="form-header">
-            <h1>Sign-Up Form</h1>
+            <h1>This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+                Sign up now to get started.
+            </h1>
+            <h1>
+                You know you want to.
+            </h1>
         </header>
+        
+        <div class="form-container">
+            <h1>Let's do this!</h1>
+            <form action='' method='get' class='main-form'>   
+                <div class='form-fname'>
+                    <label for='first-name'>FIRST NAME</label>
+                    <input id='first-name' name='first-name' type='text'/>
+                </div>
+                <div class='form-lname'>
+                    <label for='last-name'>LAST NAME</label>
+                    <input id='last-name' name='last-name' type='text'/>
+                </div>
+                <div class='form-mail'>
+                    <label for='mail'>EMAIL</label>
+                    <input id='mail' name='mail' type='email'/>
+                </div>
+                <div class='form-phone'>
+                    <label for='phone'>PHONE NUMBER</label>
+                    <input id='phone' name='phone' type='tel'/>
+                </div>
+                <div class='form-password'>
+                    <label for='password'>PASSWORD</label>
+                    <input id='password' name='password' type='password' onkeyup='check();'/>
+                    <span id='message'></span>
+                </div>
+                <div class='form-confirm-password'>
+                    <label for='confirm-password'>CONFIRM PASSWORD</label>
+                    <input id='confirm-password' name='confirm-password' type='password' onkeyup='check();'/>
+                    
+                </div>
+                <div class='form-button'>
+                    <button>Create Account</button>
+                    <span>Already have an account? <a href="#">Log in!</a></span>
+                </div>
+            </form>
+        </div>
+        
     </div>
     
 </body>
